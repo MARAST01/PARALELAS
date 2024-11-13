@@ -4,6 +4,9 @@ using namespace std;
 #include <chrono>
 const int SIZE_VECTOR = 5000000;
 using namespace std::chrono;
+#include <tbb/parallel_for.h>
+#include <tbb/blocked_range.h>
+#include <tbb/parallel_reduce.h>
 
 vector<int> vectorcillo(SIZE_VECTOR);
 
@@ -12,36 +15,42 @@ long sumaelementos(int n){
     return n + sumaelementos(n - 1);
 }
 
-void inicializar(int start, int end) {
-    for (int i = start; i < end; ++i) {
-        vectorcillo[i] = sumaelementos(i % 100);
-    }
+void process() {
+    tbb::parallel_for(tbb::blocked_range<int>(0, SIZE_VECTOR), [&](tbb::blocked_range<int> r) {
+        for (int i = r.begin(); i < r.end(); ++i) {
+            vectorcillo[i] = sumaelementos(i % 100);
+        }
+    });
+
+    tbb::parallel_for(tbb::blocked_range<int>(0, SIZE_VECTOR), [&](tbb::blocked_range<int> r) {
+        for (int i = r.begin(); i < r.end(); ++i) {
+            long a = vectorcillo[i];
+            vectorcillo[i] = a;
+        }
+    });
+
+    
+    
+    long suma = tbb::parallel_reduce(tbb::blocked_range<int>(0, SIZE_VECTOR), 0, [&](tbb::blocked_range<int> r, long local_sum) -> long {
+        for (int i = r.begin(); i < r.end(); ++i) {
+            local_sum += vectorcillo[i];
+        }
+        return local_sum;
+    }, 
+    [](long x, long y) -> long {
+        return x + y;
+    });
+    cout << "La suma de los elementos del vector es: " << suma << endl;
 }
 
-void imprimir(int start, int end){
-    for (int i = start; i < end; ++i) {
-        long a = vectorcillo[i];
-        vectorcillo[i] = a;
-    }
-}
-
-long sumar (int start, int end){
-    long suma = 0;
-    for (int i = start; i < end; ++i) {
-        suma += vectorcillo[i];
-    }
-    return suma;
-}
 
 int main(){
     auto start = high_resolution_clock::now();
-    inicializar(0, SIZE_VECTOR);
-    imprimir(0, SIZE_VECTOR);
-    cout << "La suma de los elementos del vector es: " << sumar(0, SIZE_VECTOR) << endl;
+    process();
 
     auto end = high_resolution_clock::now();
     duration<float, std::milli> duration_ms =end - start;
-    cout << "Tiempo de ejecución: " << duration_ms.count() << " ms" << endl;
+    cout << "Tiempo de ejecución TBB: " << duration_ms.count() << " ms" << endl;
     
     return 0;
 }
