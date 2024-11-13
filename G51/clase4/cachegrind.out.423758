@@ -1,0 +1,1860 @@
+cmd: ./hilos
+events: Ir
+fl=/usr/include/bits/string_fortified.h
+fn=std::locale::_Impl::_Impl(unsigned long)
+29 2
+fl=/usr/include/wchar.h
+fn=std::ctype<wchar_t>::_M_initialize_ctype()
+345 512
+351 256
+fl=/usr/src/debug/gcc/gcc-build/gcc/include/cpuid.h
+fn=__cpu_indicator_init@GCC_4.8.0
+310 4
+331 4
+334 9
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/atomic_base.h
+fn=std::atomic<std::shared_ptr<std::chrono::tzdb_list::_Node> >::~atomic()
+501 1
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/basic_ios.h
+fn=std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+326 3
+fn=std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+49 4
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush()
+326 13
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::sentry::sentry(std::basic_ostream<wchar_t, std::char_traits<wchar_t> >&)
+142 5
+300 4
+fn=std::ios_base::Init::Init()
+311 1
+314 4
+465 24
+466 56
+fn=std::ostream& std::ostream::_M_insert<long>(long)
+49 6
+162 2
+326 2
+376 4
+378 1
+379 1
+fn=std::ostream::flush()
+326 19
+fn=std::ostream::put(char)
+326 4
+fn=std::ostream::sentry::sentry(std::ostream&)
+142 14
+300 13
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/basic_ios.tcc
+fn=std::basic_ios<char, std::char_traits<char> >::_M_cache_locale(std::locale const&)
+157 28
+159 8
+160 8
+161 8
+162 16
+fn=std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+126 28
+129 4
+132 12
+146 8
+149 4
+150 4
+151 4
+152 16
+153 16
+fn=std::basic_ios<wchar_t, std::char_traits<wchar_t> >::_M_cache_locale(std::locale const&)
+157 28
+159 8
+160 8
+161 8
+162 16
+fn=std::basic_ios<wchar_t, std::char_traits<wchar_t> >::init(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*)
+126 28
+129 4
+132 12
+146 4
+147 4
+149 4
+150 4
+151 4
+152 16
+153 16
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/char_traits.h
+fn=std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+391 9
+fn=std::ostream::put(char)
+450 2
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/chrono.h
+fn=std::chrono::_V2::system_clock::now()
+227 2
+702 2
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/codecvt.h
+fn=std::locale::_Impl::_Impl(unsigned long)
+484 3
+541 3
+599 3
+656 3
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/ios_base.h
+fn=std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+776 6
+787 3
+fn=std::ios_base::Init::Init()
+105 2
+fn=std::ios_base::ios_base()
+629 144
+fn=std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+85 6
+683 2
+776 2
+787 2
+788 2
+838 2
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/locale_classes.h
+fn=_GLOBAL__sub_I_cxx11_locale_inst.cc
+830 4
+fn=_GLOBAL__sub_I_cxx11_wlocale_inst.cc
+830 4
+fn=_GLOBAL__sub_I_locale_inst.cc
+830 4
+fn=_GLOBAL__sub_I_wlocale_inst.cc
+830 4
+fn=std::__cxx11::messages<char>::messages(unsigned long)
+428 4
+fn=std::__cxx11::messages<wchar_t>::messages(unsigned long)
+428 4
+fn=std::__timepunct<char>::__timepunct(std::__timepunct_cache<char>*, unsigned long)
+428 4
+fn=std::__timepunct<wchar_t>::__timepunct(std::__timepunct_cache<wchar_t>*, unsigned long)
+428 4
+fn=std::codecvt<char, char, __mbstate_t>::codecvt(unsigned long)
+428 4
+fn=std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+428 4
+fn=std::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+428 4
+fn=std::ctype<wchar_t>::ctype(unsigned long)
+428 4
+fn=std::locale::_Impl::_Impl(unsigned long)
+428 40
+643 2
+644 132
+707 17
+fn=std::locale::_Impl::_M_init_extra(std::locale::facet**)
+428 20
+651 86
+707 10
+fn=std::messages<char>::messages(unsigned long)
+428 4
+fn=std::messages<wchar_t>::messages(unsigned long)
+428 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/locale_classes.tcc
+fn=std::basic_ios<char, std::char_traits<char> >::_M_cache_locale(std::locale const&)
+96 36
+97 12
+105 4
+106 4
+107 4
+fn=std::basic_ios<wchar_t, std::char_traits<wchar_t> >::_M_cache_locale(std::locale const&)
+96 36
+97 12
+120 4
+121 4
+122 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/locale_facets.h
+fn=_GLOBAL__sub_I_cxx11_locale_inst.cc
+1891 4
+fn=_GLOBAL__sub_I_cxx11_wlocale_inst.cc
+1891 4
+fn=_GLOBAL__sub_I_locale_inst.cc
+1891 4
+2302 4
+2589 4
+fn=_GLOBAL__sub_I_wlocale_inst.cc
+1891 4
+2302 4
+2589 4
+fn=std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+882 6
+fn=std::ctype<char>::_M_widen_init() const
+1118 32
+fn=std::locale::_Impl::_Impl(unsigned long)
+1630 4
+1631 2
+1632 6
+1633 5
+1634 8
+1717 9
+1718 6
+1981 6
+2339 6
+fn=std::locale::_Impl::_M_init_extra(std::locale::facet**)
+1717 8
+1718 6
+fn=std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+2538 2
+2539 4
+fn=std::ostream& std::ostream::_M_insert<long>(long)
+882 3
+884 2
+885 7
+2400 17
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/locale_facets.tcc
+fn=int std::__int_to_char<char, unsigned long>(char*, unsigned long, char const*, std::_Ios_Fmtflags, bool)
+812 6
+816 4
+821 153
+822 13
+824 26
+849 4
+850 2
+fn=std::__use_cache<std::__numpunct_cache<char> >::operator()(std::locale const&) const [clone .isra.0]
+53 14
+55 6
+56 2
+57 10
+73 12
+fn=std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+868 34
+877 4
+878 2
+883 14
+889 6
+890 4
+892 4
+893 2
+894 18
+895 10
+898 8
+911 4
+914 4
+917 4
+940 6
+952 22
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/locale_facets_nonio.h
+fn=_GLOBAL__sub_I_cxx11_locale_inst.cc
+794 4
+1413 8
+1651 4
+1816 4
+2022 4
+fn=_GLOBAL__sub_I_cxx11_wlocale_inst.cc
+794 4
+1413 8
+1651 4
+1816 4
+2022 4
+fn=_GLOBAL__sub_I_locale_inst.cc
+326 4
+794 4
+927 4
+1413 8
+1651 4
+1816 4
+2022 4
+fn=_GLOBAL__sub_I_wlocale_inst.cc
+326 4
+794 4
+927 4
+1413 8
+1651 4
+1816 4
+2022 4
+fn=std::locale::_Impl::_Impl(unsigned long)
+123 48
+136 10
+420 6
+857 6
+1017 12
+1018 6
+1019 8
+1020 8
+1021 8
+1022 4
+1023 4
+1024 16
+1105 18
+1106 16
+1528 6
+1688 6
+fn=std::locale::_Impl::_M_init_extra(std::locale::facet**)
+420 6
+1105 20
+1106 16
+1528 6
+1688 6
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/ostream.tcc
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush()
+221 36
+229 12
+231 16
+232 8
+237 12
+252 36
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::sentry::sentry(std::basic_ostream<wchar_t, std::char_traits<wchar_t> >&)
+46 24
+48 8
+51 23
+52 2
+54 11
+55 4
+58 16
+fn=std::ostream& std::ostream::_M_insert<long>(long)
+63 26
+66 8
+67 4
+73 8
+78 8
+92 24
+fn=std::ostream::flush()
+221 54
+229 18
+231 24
+232 12
+237 18
+252 54
+fn=std::ostream::put(char)
+153 22
+162 8
+163 4
+168 2
+169 4
+183 20
+fn=std::ostream::sentry::sentry(std::ostream&)
+46 78
+48 26
+51 68
+52 2
+54 29
+55 13
+58 52
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/ostream_insert.h
+fn=std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+54 6
+55 9
+79 42
+85 15
+86 6
+90 9
+91 6
+116 36
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/shared_ptr_atomic.h
+fn=std::atomic<std::shared_ptr<std::chrono::tzdb_list::_Node> >::~atomic()
+424 2
+425 3
+630 1
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/stl_pair.h
+fn=_GLOBAL__sub_I_eh_alloc.cc
+882 2
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/streambuf_iterator.h
+fn=std::ostream& std::ostream::_M_insert<long>(long)
+285 2
+fn=std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+327 4
+329 10
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/bits/unique_ptr.h
+fn=execute_native_thread_routine
+93 12
+fn=std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())
+212 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/ext/atomicity.h
+fn=std::ios_base::Init::Init()
+84 2
+85 2
+92 1
+98 3
+108 3
+fn=std::ios_base::Init::~Init()
+52 1
+66 2
+84 1
+98 2
+fn=std::locale::_Impl::_M_init_extra(std::locale::facet**)
+52 1
+92 16
+108 32
+fn=std::locale::_Impl::_M_install_facet(std::locale::id const*, std::locale::facet const*)
+52 32
+92 32
+108 64
+fn=std::locale::_S_initialize()
+52 22
+fn=std::locale::id::_M_id() const
+52 48
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/ext/bitmap_allocator.h
+fn=_GLOBAL__sub_I_bitmap_allocator.cc
+106 10
+412 6
+420 4
+421 2
+422 2
+1113 8
+1126 8
+1131 8
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/ext/concurrence.h
+fn=_GLOBAL__sub_I_bitmap_allocator.cc
+129 28
+fn=_GLOBAL__sub_I_eh_alloc.cc
+129 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/ext/stdio_sync_filebuf.h
+fn=__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::overflow(int)
+172 4
+175 6
+236 4
+fn=__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::sync()
+191 7
+192 14
+fn=__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsputn(char const*, long)
+253 30
+fn=__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::sync()
+191 5
+192 10
+fn=std::ios_base::Init::Init()
+81 22
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/istream
+fn=std::ios_base::Init::Init()
+96 12
+97 6
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/ostream
+fn=std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+519 18
+fn=std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+741 10
+742 20
+764 2
+fn=std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+668 18
+670 9
+673 9
+676 15
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush()
+519 27
+522 4
+fn=std::ios_base::Init::Init()
+93 30
+fn=std::ostream& std::ostream::_M_insert<long>(long)
+519 12
+fn=std::ostream::flush()
+519 39
+522 4
+fn=std::ostream::operator<<(long)
+174 2
+175 2
+fn=std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+116 2
+121 2
+fn=std::ostream::put(char)
+519 12
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/parallel/settings.h
+fn=_GLOBAL__sub_I_parallel_settings.cc
+286 7
+287 6
+295 1
+297 4
+299 2
+300 5
+306 1
+308 1
+311 1
+313 1
+314 1
+319 3
+325 2
+327 6
+333 2
+335 2
+337 1
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/streambuf
+fn=std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+458 12
+fn=std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush()
+278 10
+fn=std::ios_base::Init::Init()
+470 1
+471 23
+472 19
+473 22
+fn=std::ostream::flush()
+278 14
+fn=std::ostream::put(char)
+434 4
+441 4
+539 2
+fn=std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+458 8
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/string_view
+fn=_GLOBAL__sub_I_eh_alloc.cc
+141 2
+142 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/x86_64-pc-linux-gnu/bits/gthr-default.h
+fn=std::locale::facet::_S_get_c_locale()
+713 42
+fn=std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())
+676 16
+fn=std::thread::join()
+682 8
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/x86_64-pc-linux-gnu/bits/messages_members.h
+fn=std::__cxx11::messages<char>::messages(unsigned long)
+44 6
+45 2
+46 5
+47 4
+fn=std::__cxx11::messages<wchar_t>::messages(unsigned long)
+44 6
+45 2
+46 5
+47 4
+fn=std::messages<char>::messages(unsigned long)
+44 6
+45 2
+46 5
+47 4
+fn=std::messages<wchar_t>::messages(unsigned long)
+44 6
+45 2
+46 5
+47 4
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/include/x86_64-pc-linux-gnu/bits/time_members.h
+fn=std::__timepunct<char>::__timepunct(std::__timepunct_cache<char>*, unsigned long)
+48 6
+49 2
+50 5
+51 7
+fn=std::__timepunct<wchar_t>::__timepunct(std::__timepunct_cache<wchar_t>*, unsigned long)
+48 6
+49 2
+50 5
+51 7
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++11/ctype_configure_char.cc
+fn=std::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+121 10
+122 2
+123 4
+124 2
+125 2
+126 5
+127 5
+129 42
+130 39
+131 6
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++11/ctype_members.cc
+fn=std::ctype<wchar_t>::_M_convert_to_wmask(unsigned short) const
+60 12
+62 100
+65 3
+68 3
+71 3
+74 3
+77 3
+80 3
+83 3
+86 3
+89 3
+98 3
+104 4
+fn=std::ctype<wchar_t>::_M_initialize_ctype()
+273 8
+275 4
+278 385
+281 256
+284 128
+286 1
+290 256
+291 515
+292 256
+294 21
+296 85
+297 44
+300 4
+302 5
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/c++locale.cc
+fn=std::locale::facet::_S_create_c_locale(__locale_struct*&, char const*, __locale_struct*)
+134 6
+135 3
+136 2
+142 3
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/monetary_members.cc
+fn=std::__cxx11::moneypunct<char, false>::_M_initialize_moneypunct(__locale_struct*, char const*)
+372 11
+373 2
+376 2
+379 2
+380 2
+381 3
+382 1
+383 1
+384 1
+385 1
+386 1
+387 1
+388 1
+389 1
+390 1
+391 3
+392 2
+394 36
+395 35
+517 8
+fn=std::__cxx11::moneypunct<char, true>::_M_initialize_moneypunct(__locale_struct*, char const*)
+216 11
+217 2
+220 2
+223 2
+224 2
+225 3
+226 1
+227 1
+228 1
+229 1
+230 1
+231 1
+232 1
+233 1
+234 1
+235 3
+236 2
+238 35
+239 35
+366 8
+fn=std::__cxx11::moneypunct<wchar_t, false>::_M_initialize_moneypunct(__locale_struct*, char const*)
+741 13
+742 2
+745 2
+748 3
+750 2
+751 1
+752 1
+753 2
+754 1
+755 1
+756 1
+757 1
+758 1
+759 1
+760 3
+761 2
+764 36
+765 1
+766 24
+914 11
+fn=std::__cxx11::moneypunct<wchar_t, true>::_M_initialize_moneypunct(__locale_struct*, char const*)
+558 13
+559 2
+562 2
+565 3
+567 2
+568 1
+569 1
+570 2
+571 1
+572 1
+573 1
+574 1
+575 1
+576 1
+577 3
+578 2
+581 36
+582 1
+583 24
+731 11
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/monetary_members_cow.cc
+fn=std::moneypunct<char, false>::_M_initialize_moneypunct(__locale_struct*, char const*)
+372 11
+373 2
+376 2
+379 2
+380 2
+381 3
+382 1
+383 1
+384 1
+385 1
+386 1
+387 1
+388 1
+389 1
+390 1
+391 3
+392 2
+394 36
+395 35
+517 8
+fn=std::moneypunct<char, true>::_M_initialize_moneypunct(__locale_struct*, char const*)
+216 11
+217 2
+220 2
+223 2
+224 2
+225 3
+226 1
+227 1
+228 1
+229 1
+230 1
+231 1
+232 1
+233 1
+234 1
+235 3
+236 2
+238 35
+239 35
+366 8
+fn=std::moneypunct<wchar_t, false>::_M_initialize_moneypunct(__locale_struct*, char const*)
+741 13
+742 2
+745 2
+748 3
+750 2
+751 1
+752 1
+753 2
+754 1
+755 1
+756 1
+757 1
+758 1
+759 1
+760 3
+761 2
+764 36
+765 1
+766 24
+914 11
+fn=std::moneypunct<wchar_t, true>::_M_initialize_moneypunct(__locale_struct*, char const*)
+558 13
+559 2
+562 2
+565 3
+567 2
+568 1
+569 1
+570 2
+571 1
+572 1
+573 1
+574 1
+575 1
+576 1
+577 3
+578 2
+581 36
+582 1
+583 24
+731 11
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/numeric_members.cc
+fn=std::__cxx11::numpunct<char>::_M_initialize_numpunct(__locale_struct*)
+92 9
+93 2
+96 2
+99 3
+100 1
+101 1
+103 1
+104 2
+106 112
+107 110
+109 83
+110 80
+164 3
+165 1
+167 2
+168 1
+169 6
+fn=std::__cxx11::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*)
+183 9
+184 2
+187 2
+190 3
+191 1
+192 1
+194 2
+198 112
+200 74
+202 81
+204 54
+256 2
+257 1
+259 2
+260 1
+261 6
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/numeric_members_cow.cc
+fn=std::numpunct<char>::_M_initialize_numpunct(__locale_struct*)
+92 9
+93 2
+96 2
+99 3
+100 1
+101 1
+103 1
+104 2
+106 112
+107 110
+109 83
+110 80
+164 3
+165 1
+167 2
+168 1
+169 6
+fn=std::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*)
+183 9
+184 2
+187 2
+190 3
+191 1
+192 1
+194 2
+198 112
+200 74
+202 81
+204 54
+256 2
+257 1
+259 2
+260 1
+261 6
+fl=/usr/src/debug/gcc/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/c++98/time_members.cc
+fn=std::__timepunct<char>::_M_initialize_timepunct(__locale_struct*)
+66 8
+67 2
+70 2
+73 4
+75 109
+129 2
+192 5
+fn=std::__timepunct<wchar_t>::_M_initialize_timepunct(__locale_struct*)
+222 7
+223 2
+226 2
+229 3
+231 109
+284 1
+285 2
+396 3
+fl=/usr/src/debug/gcc/gcc/libgcc/../gcc/common/config/i386/cpuinfo.h
+fn=__cpu_indicator_init@GCC_4.8.0
+66 1
+75 2
+92 17
+101 22
+103 13
+350 13
+452 2
+454 1
+735 2
+737 3
+743 2
+746 4
+748 1
+750 6
+753 6
+754 3
+755 1
+761 2
+763 2
+765 2
+767 2
+769 2
+771 2
+774 2
+776 3
+778 2
+780 2
+782 2
+784 2
+786 2
+788 2
+790 2
+792 2
+794 2
+796 2
+798 2
+800 2
+802 2
+804 2
+806 2
+811 2
+815 4
+816 2
+818 2
+820 2
+822 2
+824 2
+826 2
+828 2
+830 2
+833 2
+835 2
+837 2
+839 2
+841 2
+843 2
+845 2
+847 2
+850 2
+852 2
+854 2
+856 2
+858 2
+860 2
+862 2
+864 2
+866 2
+870 2
+872 2
+874 2
+876 2
+878 2
+880 2
+889 2
+927 2
+983 2
+985 3
+986 2
+988 2
+990 2
+995 2
+1045 3
+1049 2
+1051 2
+1053 2
+1055 2
+1057 3
+1059 2
+1061 2
+1063 2
+1065 2
+1067 2
+1070 2
+1072 2
+1074 2
+1077 2
+1079 2
+1081 2
+1086 2
+1088 2
+1089 2
+1091 2
+1111 4
+1112 1
+1124 2
+1138 3
+1139 4
+1140 4
+1147 2
+1150 2
+1156 3
+1163 3
+1204 2
+1205 2
+1210 2
+1211 2
+1212 2
+1213 2
+1219 4
+1220 2
+1221 2
+1222 2
+1225 3
+1233 3
+1237 3
+fl=/usr/src/debug/gcc/gcc/libgcc/config/i386/cpuinfo.c
+fn=__cpu_indicator_init@GCC_4.8.0
+60 8
+62 1
+64 7
+fl=/usr/src/debug/gcc/gcc/libgcc/unwind-dw2-btree.h
+fn=btree_destroy
+356 10
+359 4
+360 4
+364 6
+370 8
+fl=/usr/src/debug/gcc/gcc/libgcc/unwind-dw2-fde.c
+fn=release_registered_frames
+58 3
+61 2
+62 2
+63 1
+64 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/del_op.cc
+fn=operator delete(void*)
+48 5
+49 5
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/del_ops.cc
+fn=operator delete(void*, unsigned long)
+32 5
+33 5
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/eh_alloc.cc
+fn=_GLOBAL__sub_I_eh_alloc.cc
+138 1
+187 3
+195 3
+203 3
+232 1
+235 3
+236 2
+245 1
+247 1
+248 3
+456 25
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/eh_catch.cc
+fn=std::uncaught_exception()
+138 6
+140 2
+141 6
+145 4
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/eh_globals.cc
+fn=__cxa_get_globals
+62 16
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/new
+fn=std::ios_base::Init::Init()
+180 4
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/libsupc++/new_op.cc
+fn=operator new(unsigned long)
+43 25
+47 20
+50 20
+59 15
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/chrono.cc
+fn=std::chrono::_V2::system_clock::now()
+52 8
+59 10
+73 10
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/compatibility-c++0x.cc
+fn=_GLOBAL__sub_I_compatibility_c__0x.cc
+188 4
+203 4
+218 11
+219 2
+260 8
+fn=std::(anonymous namespace)::generic_error_category::~generic_error_category()
+188 4
+fn=std::(anonymous namespace)::system_error_category::~system_error_category()
+203 4
+fn=std::error_category::error_category()
+180 10
+fn=std::error_category::~error_category()
+182 4
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/compatibility-condvar.cc
+fn=_GLOBAL__sub_I_compatibility_condvar.cc
+82 1
+108 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/compatibility-thread-c++0x.cc
+fn=_GLOBAL__sub_I_compatibility_thread_c__0x.cc
+54 3
+128 5
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/cow-locale_init.cc
+fn=std::locale::_Impl::_M_init_extra(std::locale::facet**)
+100 11
+101 1
+102 2
+103 2
+112 4
+114 1
+115 2
+116 2
+125 4
+129 4
+130 5
+131 5
+133 4
+134 5
+135 5
+137 8
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/ctype.cc
+fn=std::ctype<char>::_M_widen_init() const
+90 33
+92 37
+93 630
+94 5
+98 4
+99 4
+100 9
+fn=std::ctype<wchar_t>::ctype(unsigned long)
+103 6
+105 6
+106 5
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/future.cc
+fn=(anonymous namespace)::constant_init::~constant_init()
+74 2
+fn=_GLOBAL__sub_I_future.cc
+77 4
+126 1
+fn=std::future_category()
+89 3
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/ios.cc
+fn=std::ios_base::ios_base()
+76 8
+77 24
+78 40
+79 264
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/ios_errcat.cc
+fn=(anonymous namespace)::constant_init::~constant_init()
+69 2
+fn=_GLOBAL__sub_I_ios_errcat.cc
+72 4
+84 1
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/locale-inst.cc
+fn=_GLOBAL__sub_I_cxx11_locale_inst.cc
+160 2
+fn=_GLOBAL__sub_I_cxx11_wlocale_inst.cc
+160 2
+fn=_GLOBAL__sub_I_locale_inst.cc
+160 2
+fn=_GLOBAL__sub_I_wlocale_inst.cc
+160 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/locale_init.cc
+fn=std::locale::_Impl::_Impl(unsigned long)
+490 13
+492 2
+495 53
+496 53
+499 17
+500 2
+501 1
+510 6
+511 4
+533 5
+537 4
+540 4
+541 4
+563 5
+567 4
+590 6
+593 3
+598 5
+599 4
+600 5
+601 5
+603 4
+604 5
+605 4
+606 5
+608 11
+fn=std::locale::_S_initialize()
+340 22
+342 44
+345 87
+346 1
+fn=std::locale::_S_initialize_once()
+324 5
+328 3
+333 5
+334 2
+335 3
+336 3
+fn=std::locale::locale()
+269 198
+271 22
+282 66
+283 66
+289 132
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/system_error.cc
+fn=(anonymous namespace)::constant_init<(anonymous namespace)::generic_error_category>::~constant_init()
+125 2
+fn=(anonymous namespace)::constant_init<(anonymous namespace)::system_error_category>::~constant_init()
+125 2
+fn=_GLOBAL__sub_I_system_error.cc
+145 9
+640 8
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++11/thread.cc
+fn=execute_native_thread_routine
+102 24
+104 8
+106 20
+fn=std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())
+158 24
+175 8
+178 12
+fn=std::thread::_State::~_State()
+126 8
+fn=std::thread::join()
+130 28
+133 8
+136 8
+139 4
+140 12
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++17/memory_resource.cc
+fn=_GLOBAL__sub_I_memory_resource.cc
+95 13
+1483 8
+fn=std::pmr::(anonymous namespace)::constant_init<std::atomic<std::pmr::memory_resource*> >::~constant_init()
+92 2
+fn=std::pmr::(anonymous namespace)::constant_init<std::pmr::(anonymous namespace)::newdel_res_t>::~constant_init()
+92 2
+fn=std::pmr::(anonymous namespace)::constant_init<std::pmr::(anonymous namespace)::null_res_t>::~constant_init()
+92 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++20/tzdb.cc
+fn=_GLOBAL__sub_I_tzdb.cc
+185 4
+2100 1
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/bitmap_allocator.cc
+fn=_GLOBAL__sub_I_bitmap_allocator.cc
+127 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/codecvt.cc
+fn=std::codecvt<char, char, __mbstate_t>::codecvt(unsigned long)
+38 6
+41 5
+42 4
+fn=std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+118 6
+121 5
+122 4
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/globals_io.cc
+fn=_GLOBAL__sub_I.00090_globals_io.cc
+109 8
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/ios_base_init.h
+fn=_GLOBAL__sub_I.00090_globals_io.cc
+12 7
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/ios_init.cc
+fn=std::ios_base::Init::Init()
+78 9
+80 2
+83 3
+85 3
+86 2
+87 2
+102 2
+103 2
+104 2
+121 8
+fn=std::ios_base::Init::~Init()
+123 3
+127 2
+134 2
+135 2
+136 2
+139 2
+140 2
+141 2
+147 2
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/ios_locale.cc
+fn=std::ios_base::_M_init()
+39 72
+41 16
+43 8
+44 64
+45 64
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/locale.cc
+fn=std::locale::_Impl::_M_install_facet(std::locale::id const*, std::locale::facet const*)
+325 352
+326 64
+328 96
+331 128
+369 96
+370 96
+413 64
+421 4768
+423 1536
+424 4608
+431 256
+fn=std::locale::facet::_S_get_c_locale()
+221 70
+226 56
+229 42
+fn=std::locale::facet::_S_get_c_name()
+233 21
+fn=std::locale::facet::_S_initialize_once()
+208 1
+212 3
+216 3
+fn=std::locale::id::_M_id() const
+507 88
+508 264
+521 96
+543 288
+545 88
+546 88
+fn=std::locale::locale(std::locale::_Impl*)
+88 2
+89 1
+fn=std::locale::operator=(std::locale const&)
+120 64
+121 40
+123 24
+125 16
+127 40
+fn=std::locale::~locale()
+91 40
+93 32
+95 24
+fl=/usr/src/debug/gcc/gcc/libstdc++-v3/src/c++98/parallel_settings.cc
+fn=_GLOBAL__sub_I_parallel_settings.cc
+42 2
+fl=???
+fn=(below main)
+0 95
+fn=???
+0 2670804
+fn=_Exit
+0 6
+fn=_GLOBAL__sub_I_v
+0 5
+fn=_IO_default_xsputn
+0 337
+fn=_IO_do_write
+0 37
+fn=_IO_doallocbuf
+0 29
+fn=_IO_enable_locks
+0 28
+fn=_IO_file_doallocate
+0 63
+fn=_IO_file_overflow
+0 773
+fn=_IO_file_setbuf
+0 18
+fn=_IO_file_stat
+0 3
+fn=_IO_file_sync
+0 273
+fn=_IO_file_write
+0 76
+fn=_IO_file_xsputn
+0 391
+fn=_IO_flush_all
+0 183
+fn=_IO_setb
+0 29
+fn=__acos_finite
+0 8
+fn=__asin_finite
+0 8
+fn=__atan2_finite
+0 9
+fn=__call_tls_dtors
+0 65
+fn=__ctype_init
+0 85
+fn=__cxa_atexit
+0 39
+fn=__cxa_finalize
+0 858
+fn=__default_morecore
+0 20
+fn=__exp_finite
+0 9
+fn=__gnu_cxx::__enable_if<std::__is_scalar<long>::__value, void>::__type std::__fill_a1<long*, long>(long*, long*, long const&)
+0 70000009
+fn=__libc_early_init
+0 52
+fn=__libc_sigaction
+0 53
+fn=__log_finite
+0 9
+fn=__memcpy_chk
+0 48
+fn=__memmove_chk
+0 48
+fn=__mempcpy_chk
+0 24
+fn=__memset_chk
+0 78
+fn=__overflow
+0 36
+fn=__pow_finite
+0 8
+fn=__sigsetjmp
+0 110
+fn=__static_initialization_and_destruction_0()
+0 35
+fn=__tls_get_addr
+0 24
+fn=__tunable_get_val
+0 863
+fn=__wmemset_chk
+0 10
+fn=_dl_allocate_tls
+0 20
+fn=_dl_allocate_tls_init
+0 1010
+fn=_dl_audit_preinit
+0 5
+fn=_dl_catch_exception
+0 602
+fn=_dl_debug_state
+0 4
+fn=_dl_mcount_wrapper_check
+0 640
+fn=_pthread_cleanup_pop
+0 30
+fn=_pthread_cleanup_push
+0 35
+fn=_setjmp
+0 15
+fn=bcmp
+0 54
+fn=brk
+0 18
+fn=btowc
+0 9472
+fn=calloc
+0 178
+fn=clock_gettime
+0 22
+fn=clone
+0 104
+fn=cos
+0 9
+fn=cosf
+0 9
+fn=exit
+0 7
+fn=exp2f
+0 9
+fn=expf
+0 9
+fn=expm1
+0 9
+fn=fflush
+0 636
+fn=fillVector(int, int)
+0 110000030
+fn=fma
+0 6
+fn=free
+0 667
+fn=fstat
+0 6
+fn=fwrite
+0 384
+fn=getenv
+0 205
+fn=getpagesize
+0 48
+fn=getrlimit
+0 10
+fn=gettimeofday
+0 7
+fn=index
+0 44
+fn=int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+0 78
+fn=int& std::__get_helper<1ul, int, int, std::reference_wrapper<long> >(std::_Tuple_impl<1ul, int, int, std::reference_wrapper<long> >&)
+0 18
+fn=int& std::__get_helper<1ul, int, int>(std::_Tuple_impl<1ul, int, int>&)
+0 18
+fn=int& std::__get_helper<2ul, int, std::reference_wrapper<long> >(std::_Tuple_impl<2ul, int, std::reference_wrapper<long> >&)
+0 18
+fn=int& std::__get_helper<2ul, int>(std::_Tuple_impl<2ul, int>&)
+0 18
+fn=int&& std::forward<int>(std::remove_reference<int>::type&)
+0 408
+fn=log2
+0 9
+fn=log2f
+0 9
+fn=logf
+0 9
+fn=long& std::forward<long&>(std::remove_reference<long&>::type&)
+0 12
+fn=long* std::__addressof<long>(long&)
+0 18
+fn=long* std::__fill_n_a<long*, unsigned long, long>(long*, unsigned long, long const&, std::random_access_iterator_tag)
+0 23
+fn=long* std::__uninitialized_default_n<long*, unsigned long>(long*, unsigned long)
+0 13
+fn=long* std::__uninitialized_default_n_1<true>::__uninit_default_n<long*, unsigned long>(long*, unsigned long)
+0 26
+fn=long* std::__uninitialized_default_n_a<long*, unsigned long, long>(long*, unsigned long, std::allocator<long>&)
+0 13
+fn=long* std::fill_n<long*, unsigned long, long>(long*, unsigned long, long const&)
+0 18
+fn=madvise
+0 24
+fn=main
+0 134
+fn=malloc
+0 384
+fn=memchr
+0 50
+fn=memcpy
+0 96
+fn=memmove
+0 96
+fn=mempcpy
+0 24
+fn=memrchr
+0 28
+fn=memset
+0 78
+fn=mmap
+0 104
+fn=mprotect
+0 18
+fn=munmap
+0 18
+fn=newlocale
+0 38
+fn=operator new(unsigned long, void*)
+0 7
+fn=powf
+0 9
+fn=pthread_attr_destroy
+0 24
+fn=pthread_create
+0 1472
+fn=pthread_getattr_default_np
+0 80
+fn=pthread_join
+0 20
+fn=pthread_mutex_lock
+0 220
+fn=pthread_mutex_unlock
+0 15
+fn=pthread_once
+0 88
+fn=putc
+0 110
+fn=rindex
+0 28
+fn=sbrk
+0 59
+fn=secure_getenv
+0 6
+fn=sin
+0 9
+fn=sincos
+0 8
+fn=sincosf
+0 9
+fn=sinf
+0 9
+fn=snprintf
+0 104
+fn=std::_Head_base<0ul, std::thread::_State*, false>::_Head_base()
+0 32
+fn=std::_Head_base<0ul, std::thread::_State*, false>::_M_head(std::_Head_base<0ul, std::thread::_State*, false>&)
+0 48
+fn=std::_Head_base<0ul, void (*)(int, int), false>::_Head_base(void (* const&)(int, int))
+0 22
+fn=std::_Head_base<0ul, void (*)(int, int), false>::_M_head(std::_Head_base<0ul, void (*)(int, int), false>&)
+0 12
+fn=std::_Head_base<0ul, void (*)(int, int, long&), false>::_Head_base(void (* const&)(int, int, long&))
+0 22
+fn=std::_Head_base<0ul, void (*)(int, int, long&), false>::_M_head(std::_Head_base<0ul, void (*)(int, int, long&), false>&)
+0 12
+fn=std::_Head_base<1ul, int, false>::_Head_base<int>(int&&)
+0 56
+fn=std::_Head_base<1ul, int, false>::_M_head(std::_Head_base<1ul, int, false>&)
+0 24
+fn=std::_Head_base<1ul, std::default_delete<std::thread::_State>, true>::_Head_base()
+0 24
+fn=std::_Head_base<2ul, int, false>::_Head_base(int const&)
+0 22
+fn=std::_Head_base<2ul, int, false>::_Head_base<int>(int&&)
+0 28
+fn=std::_Head_base<2ul, int, false>::_M_head(std::_Head_base<2ul, int, false>&)
+0 24
+fn=std::_Head_base<3ul, std::reference_wrapper<long>, false>::_Head_base<std::reference_wrapper<long> >(std::reference_wrapper<long>&&)
+0 28
+fn=std::_Head_base<3ul, std::reference_wrapper<long>, false>::_M_head(std::_Head_base<3ul, std::reference_wrapper<long>, false>&)
+0 12
+fn=std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >::_M_head(std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >&)
+0 72
+fn=std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >::_Tuple_impl()
+0 52
+fn=std::_Tuple_impl<0ul, void (*)(int, int), int, int>::_M_head(std::_Tuple_impl<0ul, void (*)(int, int), int, int>&)
+0 20
+fn=std::_Tuple_impl<0ul, void (*)(int, int), int, int>::_Tuple_impl<void (&)(int, int), int, int const&, void>(void (&)(int, int), int&&, int const&)
+0 43
+fn=std::_Tuple_impl<0ul, void (*)(int, int), int, int>::_Tuple_impl<void (&)(int, int), int, int, void>(void (&)(int, int), int&&, int&&)
+0 43
+fn=std::_Tuple_impl<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::_M_head(std::_Tuple_impl<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&)
+0 20
+fn=std::_Tuple_impl<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::_Tuple_impl<void (&)(int, int, long&), int, int const&, std::reference_wrapper<long>, void>(void (&)(int, int, long&), int&&, int const&, std::reference_wrapper<long>&&)
+0 51
+fn=std::_Tuple_impl<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::_Tuple_impl<void (&)(int, int, long&), int, int, std::reference_wrapper<long>, void>(void (&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 51
+fn=std::_Tuple_impl<1ul, int, int, std::reference_wrapper<long> >::_M_head(std::_Tuple_impl<1ul, int, int, std::reference_wrapper<long> >&)
+0 20
+fn=std::_Tuple_impl<1ul, int, int, std::reference_wrapper<long> >::_Tuple_impl<int, int const&, std::reference_wrapper<long>, void>(int&&, int const&, std::reference_wrapper<long>&&)
+0 35
+fn=std::_Tuple_impl<1ul, int, int, std::reference_wrapper<long> >::_Tuple_impl<int, int, std::reference_wrapper<long>, void>(int&&, int&&, std::reference_wrapper<long>&&)
+0 35
+fn=std::_Tuple_impl<1ul, int, int>::_M_head(std::_Tuple_impl<1ul, int, int>&)
+0 20
+fn=std::_Tuple_impl<1ul, int, int>::_Tuple_impl<int, int const&, void>(int&&, int const&)
+0 26
+fn=std::_Tuple_impl<1ul, int, int>::_Tuple_impl<int, int, void>(int&&, int&&)
+0 26
+fn=std::_Tuple_impl<1ul, std::default_delete<std::thread::_State> >::_Tuple_impl()
+0 40
+fn=std::_Tuple_impl<2ul, int, std::reference_wrapper<long> >::_M_head(std::_Tuple_impl<2ul, int, std::reference_wrapper<long> >&)
+0 20
+fn=std::_Tuple_impl<2ul, int, std::reference_wrapper<long> >::_Tuple_impl<int const&, std::reference_wrapper<long>, void>(int const&, std::reference_wrapper<long>&&)
+0 26
+fn=std::_Tuple_impl<2ul, int, std::reference_wrapper<long> >::_Tuple_impl<int, std::reference_wrapper<long>, void>(int&&, std::reference_wrapper<long>&&)
+0 26
+fn=std::_Tuple_impl<2ul, int>::_M_head(std::_Tuple_impl<2ul, int>&)
+0 18
+fn=std::_Tuple_impl<2ul, int>::_Tuple_impl(int const&)
+0 13
+fn=std::_Tuple_impl<2ul, int>::_Tuple_impl<int>(int&&)
+0 17
+fn=std::_Tuple_impl<3ul, std::reference_wrapper<long> >::_M_head(std::_Tuple_impl<3ul, std::reference_wrapper<long> >&)
+0 18
+fn=std::_Tuple_impl<3ul, std::reference_wrapper<long> >::_Tuple_impl<std::reference_wrapper<long> >(std::reference_wrapper<long>&&)
+0 34
+fn=std::_Vector_base<long, std::allocator<long> >::_M_allocate(unsigned long)
+0 21
+fn=std::_Vector_base<long, std::allocator<long> >::_M_create_storage(unsigned long)
+0 26
+fn=std::_Vector_base<long, std::allocator<long> >::_M_deallocate(long*, unsigned long)
+0 24
+fn=std::_Vector_base<long, std::allocator<long> >::_M_get_Tp_allocator()
+0 12
+fn=std::_Vector_base<long, std::allocator<long> >::_Vector_base(unsigned long, std::allocator<long> const&)
+0 21
+fn=std::_Vector_base<long, std::allocator<long> >::_Vector_impl::_Vector_impl(std::allocator<long> const&)
+0 21
+fn=std::_Vector_base<long, std::allocator<long> >::_Vector_impl::~_Vector_impl()
+0 13
+fn=std::_Vector_base<long, std::allocator<long> >::_Vector_impl_data::_Vector_impl_data()
+0 12
+fn=std::_Vector_base<long, std::allocator<long> >::~_Vector_base()
+0 24
+fn=std::__invoke_result<void (*)(int, int), int, int>::type std::__invoke<void (*)(int, int), int, int>(void (*&&)(int, int), int&&, int&&)
+0 58
+fn=std::__invoke_result<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::type std::__invoke<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(void (*&&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 74
+fn=std::__new_allocator<long>::allocate(unsigned long, void const*)
+0 23
+fn=std::__new_allocator<long>::deallocate(long*, unsigned long)
+0 14
+fn=std::__new_allocator<long>::~__new_allocator()
+0 18
+fn=std::__size_to_integer(unsigned long)
+0 6
+fn=std::__uniq_ptr_data<std::thread::_State, std::default_delete<std::thread::_State>, true, true>::__uniq_ptr_impl(std::thread::_State*)
+0 52
+fn=std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::_M_ptr()
+0 72
+fn=std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::__uniq_ptr_impl(std::thread::_State*)
+0 72
+fn=std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+0 21
+fn=std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+0 11
+fn=std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+0 31
+fn=std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const
+0 7
+fn=std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&)
+0 11
+fn=std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+0 14
+fn=std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+0 37
+fn=std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+0 26
+fn=std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+0 9
+fn=std::operator==(std::thread::id, std::thread::id)
+0 40
+fn=std::reference_wrapper<long> std::ref<long>(long&)
+0 36
+fn=std::reference_wrapper<long>& std::__get_helper<3ul, std::reference_wrapper<long>>(std::_Tuple_impl<3ul, std::reference_wrapper<long>>&)
+0 18
+fn=std::reference_wrapper<long>&& std::forward<std::reference_wrapper<long> >(std::remove_reference<std::reference_wrapper<long> >::type&)
+0 144
+fn=std::reference_wrapper<long>::_S_fun(long&)
+0 18
+fn=std::reference_wrapper<long>::get() const
+0 14
+fn=std::reference_wrapper<long>::operator long&() const
+0 18
+fn=std::reference_wrapper<long>::reference_wrapper<long&, void, long*>(long&)
+0 30
+fn=std::remove_reference<std::tuple<void (*)(int, int), int, int>&>::type&& std::move<std::tuple<void (*)(int, int), int, int>&>(std::tuple<void (*)(int, int), int, int>&)
+0 36
+fn=std::remove_reference<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&>::type&& std::move<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&>(std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&)
+0 48
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> >::_Invoker<void (&)(int, int), int, int const&>(void (&)(int, int), int&&, int const&)
+0 34
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> >::_Invoker<void (&)(int, int), int, int>(void (&)(int, int), int&&, int&&)
+0 34
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> >::operator()()
+0 20
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::_Invoker<void (&)(int, int, long&), int, int const&, std::reference_wrapper<long> >(void (&)(int, int, long&), int&&, int const&, std::reference_wrapper<long>&&)
+0 42
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::_Invoker<void (&)(int, int, long&), int, int, std::reference_wrapper<long> >(void (&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 42
+fn=std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::operator()()
+0 20
+fn=std::thread::_State*& std::__get_helper<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >(std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >&)
+0 72
+fn=std::thread::_State::_State()
+0 36
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> > >::_M_run()
+0 22
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> > >::_State_impl<void (&)(int, int), int, int const&>(void (&)(int, int), int&&, int const&)
+0 41
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> > >::_State_impl<void (&)(int, int), int, int>(void (&)(int, int), int&&, int&&)
+0 41
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> > >::~_State_impl()
+0 52
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > > >::_M_run()
+0 22
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > > >::_State_impl<void (&)(int, int, long&), int, int const&, std::reference_wrapper<long> >(void (&)(int, int, long&), int&&, int const&, std::reference_wrapper<long>&&)
+0 49
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > > >::_State_impl<void (&)(int, int, long&), int, int, std::reference_wrapper<long> >(void (&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 49
+fn=std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > > >::~_State_impl()
+0 52
+fn=std::thread::id::id()
+0 64
+fn=std::thread::joinable() const
+0 88
+fn=std::thread::thread<void (&)(int, int), int, int const&, void>(void (&)(int, int), int&&, int const&)
+0 62
+fn=std::thread::thread<void (&)(int, int), int, int, void>(void (&)(int, int), int&&, int&&)
+0 62
+fn=std::thread::thread<void (&)(int, int, long&), int, int const&, std::reference_wrapper<long>, void>(void (&)(int, int, long&), int&&, int const&, std::reference_wrapper<long>&&)
+0 70
+fn=std::thread::thread<void (&)(int, int, long&), int, int, std::reference_wrapper<long>, void>(void (&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 70
+fn=std::thread::~thread()
+0 48
+fn=std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >::tuple<true, true>()
+0 40
+fn=std::tuple<void (*)(int, int), int, int>::tuple<void (&)(int, int), int, int const&, true, true>(void (&)(int, int), int&&, int const&)
+0 34
+fn=std::tuple<void (*)(int, int), int, int>::tuple<void (&)(int, int), int, int, true, true>(void (&)(int, int), int&&, int&&)
+0 34
+fn=std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::tuple<void (&)(int, int, long&), int, int const&, std::reference_wrapper<long>, true, true>(void (&)(int, int, long&), int&&, int const&, std::reference_wrapper<long>&&)
+0 42
+fn=std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >::tuple<void (&)(int, int, long&), int, int, std::reference_wrapper<long>, true, true>(void (&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 42
+fn=std::tuple_element<0ul, std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> > >::type& std::get<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >(std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >&)
+0 72
+fn=std::tuple_element<0ul, std::tuple<void (*)(int, int), int, int> >::type&& std::get<0ul, void (*)(int, int), int, int>(std::tuple<void (*)(int, int), int, int>&&)
+0 22
+fn=std::tuple_element<0ul, std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::type&& std::get<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&&)
+0 22
+fn=std::tuple_element<1ul, std::tuple<void (*)(int, int), int, int> >::type&& std::get<1ul, void (*)(int, int), int, int>(std::tuple<void (*)(int, int), int, int>&&)
+0 22
+fn=std::tuple_element<1ul, std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::type&& std::get<1ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&&)
+0 22
+fn=std::tuple_element<2ul, std::tuple<void (*)(int, int), int, int> >::type&& std::get<2ul, void (*)(int, int), int, int>(std::tuple<void (*)(int, int), int, int>&&)
+0 22
+fn=std::tuple_element<2ul, std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::type&& std::get<2ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&&)
+0 22
+fn=std::tuple_element<3ul, std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::type&& std::get<3ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&&)
+0 22
+fn=std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::unique_ptr<std::default_delete<std::thread::_State>, void>(std::thread::_State*)
+0 52
+fn=std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::~unique_ptr()
+0 76
+fn=std::vector<long, std::allocator<long> >::_M_default_initialize(unsigned long)
+0 20
+fn=std::vector<long, std::allocator<long> >::_S_check_init_len(unsigned long, std::allocator<long> const&)
+0 35
+fn=std::vector<long, std::allocator<long> >::_S_max_size(std::allocator<long> const&)
+0 30
+fn=std::vector<long, std::allocator<long> >::operator[](unsigned long)
+0 220000000
+fn=std::vector<long, std::allocator<long> >::vector(unsigned long, std::allocator<long> const&)
+0 28
+fn=std::vector<long, std::allocator<long> >::~vector()
+0 26
+fn=stpcpy
+0 20
+fn=stpncpy
+0 22
+fn=strcasecmp
+0 24
+fn=strcasecmp_l
+0 24
+fn=strcat
+0 20
+fn=strchrnul
+0 28
+fn=strcmp
+0 44
+fn=strcpy
+0 20
+fn=strcspn
+0 7
+fn=strlen
+0 112
+fn=strncasecmp
+0 24
+fn=strncasecmp_l
+0 24
+fn=strncmp
+0 48
+fn=strncpy
+0 44
+fn=strnlen
+0 56
+fn=strpbrk
+0 7
+fn=strspn
+0 14
+fn=strstr
+0 7
+fn=sumVector(int, int, long&)
+0 160000032
+fn=unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+0 13
+fn=uselocale
+0 44
+fn=void (&std::forward<void (&)(int, int)>(std::remove_reference<void (&)(int, int)>::type&))(int, int)
+0 60
+fn=void (&std::forward<void (&)(int, int, long&)>(std::remove_reference<void (&)(int, int, long&)>::type&))(int, int, long&)
+0 60
+fn=void (*&&std::forward<void (*)(int, int)>(std::remove_reference<void (*)(int, int)>::type&))(int, int)
+0 36
+fn=void (*&&std::forward<void (*)(int, int, long&)>(std::remove_reference<void (*)(int, int, long&)>::type&))(int, int, long&)
+0 36
+fn=void (*&std::__get_helper<0ul, void (*)(int, int), int, int>(std::_Tuple_impl<0ul, void (*)(int, int), int, int>&))(int, int)
+0 18
+fn=void (*&std::__get_helper<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::_Tuple_impl<0ul, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >&))(int, int, long&)
+0 18
+fn=void std::_Construct<long>(long*)
+0 12
+fn=void std::_Destroy<long*>(long*, long*)
+0 13
+fn=void std::_Destroy_aux<true>::__destroy<long*>(long*, long*)
+0 7
+fn=void std::__fill_a<long*, long>(long*, long*, long const&)
+0 15
+fn=void std::__invoke_impl<void, void (*)(int, int), int, int>(std::__invoke_other, void (*&&)(int, int), int&&, int&&)
+0 58
+fn=void std::__invoke_impl<void, void (*)(int, int, long&), int, int, std::reference_wrapper<long> >(std::__invoke_other, void (*&&)(int, int, long&), int&&, int&&, std::reference_wrapper<long>&&)
+0 78
+fn=void std::thread::_Invoker<std::tuple<void (*)(int, int), int, int> >::_M_invoke<0ul, 1ul, 2ul>(std::_Index_tuple<0ul, 1ul, 2ul>)
+0 66
+fn=void std::thread::_Invoker<std::tuple<void (*)(int, int, long&), int, int, std::reference_wrapper<long> > >::_M_invoke<0ul, 1ul, 2ul, 3ul>(std::_Index_tuple<0ul, 1ul, 2ul, 3ul>)
+0 84
+fn=wcpncpy
+0 21
+fn=wcscat
+0 21
+fn=wcschr
+0 56
+fn=wcscmp
+0 56
+fn=wcscpy
+0 19
+fn=wcslen
+0 44
+fn=wcsncpy
+0 21
+fn=wcsnlen
+0 22
+fn=wctob
+0 3200
+fn=wctype_l
+0 1066
+fn=wmemchr
+0 75
+fn=wmemcmp
+0 54
+fn=wmemset
+0 30
+fn=write
+0 48
+summary: 562730538

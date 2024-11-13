@@ -1,0 +1,26 @@
+#Este docker-compose va a levantar dos contenedores
+#Adminer/Dockerfile que levanta el servicio adminer en el puerto 8080
+#ejemploBD/Dockerfile que levanta un servicio mysql en el puerto 3306
+
+services:
+  bd-mysql:
+    build: ./ejemploBD    
+    ports:
+      - "3306:3306"
+
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+
+  service-adminer:
+    build: ./Adminer
+    ports:
+      - "8080:8080"
+

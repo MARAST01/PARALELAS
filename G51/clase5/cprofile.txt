@@ -1,0 +1,105 @@
+32832906032
+         11 function calls in 1.675 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.675    1.675    1.675    1.675 ejemplocprofile.py:10(suma_cuadrados)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 pstats.py:108(__init__)
+        1    0.000    0.000    0.000    0.000 pstats.py:118(init)
+        1    0.000    0.000    0.000    0.000 pstats.py:137(load_stats)
+        1    0.000    0.000    0.000    0.000 cProfile.py:52(create_stats)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+
+
+<pstats.Stats object at 0x71f127b1fc80>
+32832906032
+         57 function calls (56 primitive calls) in 0.111 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.048    0.048    0.048    0.048 ejemplocprofile.py:17(<lambda>)
+        2    0.037    0.019    0.037    0.019 numeric.py:65(zeros_like)
+        1    0.017    0.017    0.102    0.102 _shape_base_impl.py:278(apply_along_axis)
+        1    0.007    0.007    0.007    0.007 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.001    0.001    0.110    0.110 ejemplocprofile.py:16(suma_numpy)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 _stride_tricks_impl.py:43(as_strided)
+        1    0.000    0.000    0.000    0.000 _index_tricks_impl.py:690(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        1    0.000    0.000    0.000    0.000 pstats.py:137(load_stats)
+        1    0.000    0.000    0.000    0.000 pstats.py:108(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.007    0.007 {method 'sum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.lib.array_utils.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 pstats.py:118(init)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:51(_wrapfunc)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 _shape_base_impl.py:384(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 _index_tricks_impl.py:717(__next__)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:635(transpose)
+      3/2    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 cProfile.py:52(create_stats)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.007    0.007 _methods.py:51(_sum)
+        1    0.000    0.000    0.000    0.000 {method 'wrap' of 'numpy._core._multiarray_umath._array_converter' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 _stride_tricks_impl.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        2    0.000    0.000    0.000    0.000 numeric.py:59(_zeros_like_dispatcher)
+        1    0.000    0.000    0.000    0.000 _stride_tricks_impl.py:30(_maybe_view_as_subclass)
+        2    0.000    0.000    0.000    0.000 multiarray.py:82(empty_like)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:631(_transpose_dispatcher)
+        2    0.000    0.000    0.000    0.000 multiarray.py:1101(copyto)
+        1    0.000    0.000    0.000    0.000 _shape_base_impl.py:274(_apply_along_axis_dispatcher)
+        1    0.000    0.000    0.000    0.000 _index_tricks_impl.py:698(__iter__)
+
+
+<pstats.Stats object at 0x71f1259bcbf0>
+832040
+         2692546 function calls (10 primitive calls) in 0.892 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2692537/1    0.892    0.000    0.892    0.892 ejemplocprofile.py:19(fib)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 pstats.py:108(__init__)
+        1    0.000    0.000    0.000    0.000 pstats.py:118(init)
+        1    0.000    0.000    0.000    0.000 pstats.py:137(load_stats)
+        1    0.000    0.000    0.000    0.000 cProfile.py:52(create_stats)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+
+
+<pstats.Stats object at 0x71f1254db650>
+832040
+         40 function calls (10 primitive calls) in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     31/1    0.000    0.000    0.000    0.000 ejemplocprofile.py:22(fibmem)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 pstats.py:108(__init__)
+        1    0.000    0.000    0.000    0.000 pstats.py:137(load_stats)
+        1    0.000    0.000    0.000    0.000 pstats.py:118(init)
+        1    0.000    0.000    0.000    0.000 cProfile.py:52(create_stats)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+
+
+<pstats.Stats object at 0x71f1254db230>
